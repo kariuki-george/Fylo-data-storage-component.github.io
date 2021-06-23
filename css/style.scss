@@ -1,0 +1,201 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+        color: white
+    }
+
+    body{
+    
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+        
+        background-image: url("../images/bg-mobile.png");
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        padding-top: 20vh;
+
+        .cont1{
+            width: 80%;
+            max-width: 450px;
+            height: 30vh;
+            background-color: hsl(228, 56%, 26%);
+            margin: 1em;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+            border-radius: 10px;
+            border-top-right-radius: 70px;
+
+            .header{
+                display: flex;
+                justify-content: space-between;
+                margin: 0.5em;
+            }
+            .other{
+                display: flex;
+                
+                margin: 0.5em 1em;
+                
+
+                img{
+                    width: 3em;
+                    height: auto;
+                    background-color: hsl(229, 57%, 11%);
+                    padding: 0.75em;
+                    border-radius: 10px;
+                    margin: 0.6em;
+                }
+            }
+
+        }
+
+        .cont2{
+            align-items: center;
+            position: relative;
+            width: 80%;
+            background-color: hsl(228, 56%, 26%);
+            border-radius: 10px;
+            padding: 1em;
+            margin: 1em;
+            padding-bottom: 5em;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h2{
+                font-size: 1em;
+
+                strong{
+                    font-weight: 700;
+                }
+            }
+
+            .slider{
+                height: 1em;
+                width: 100%;
+                background-image: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+                border-radius: 10px;
+                margin: 0.5em 0.5em;
+                padding: 0px 3em;
+                
+                
+            }
+            
+
+            
+
+            .limits{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                font-weight: 700;
+            }
+
+            .cont3{
+                position: absolute;
+                
+                bottom: -50px;
+              
+                width: fit-content;
+                background-color: white;
+                margin: 1em;
+                padding: 1em;
+                border-radius: 10px;
+                
+        
+                font-size: 1em;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                h2{
+                    color: black;
+                    font-size: 1.5em;
+                    margin-right: 0.5em;
+                    font-weight: 700;
+                }
+                h3{
+                    font-size: 0.75em;
+                    color: gray;
+                }
+            }
+
+        }
+
+    }
+
+    
+.attribution{
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (min-width: 650px){
+        body{
+            background-image: url("../images/bg-desktop.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+            
+            .cont1{
+                min-width: 300px;
+            }
+            
+            
+
+            .cont2{
+                min-width: 250px;
+                padding-bottom: 2em;
+                max-width: 600px;
+
+                .cont3{
+                    height: fit-content;
+                    position: absolute;
+                    top: -55px;
+                    right: 5px;
+                    border-bottom-right-radius: 0px;
+                                   
+                }
+            }
+            
+        }
+        
+}
+
+@media screen and (max-width: 1440px) {
+    body{
+        max-width: 1440px;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    body{
+        max-width: 375px;
+        
+    }
+    
+}
