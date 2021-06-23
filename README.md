@@ -10,7 +10,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 ## Links
 
 - Solution URL: "https://github.com/smiley-geek/Fylo-data-storage-component.github.io"
-- Live Site URL: "https://smiley-geek.github.io/Interactive-pricing-component.github.io/"
+- Live Site URL: "https://smiley-geek.github.io/Fylo-data-storage-component.github.io/"
 
 ## Built with
 
